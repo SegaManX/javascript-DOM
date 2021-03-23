@@ -6,7 +6,7 @@ window.addEventListener("load", function(){
   
       var y = document.getElementById("greeting");
   
-      y.innerHTML = ("Hello there, " + name_field.value + "!");
+      y.innerHTML = ("Hello there, " + x.value + "!");
   
     });
   
