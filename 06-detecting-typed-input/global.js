@@ -1,12 +1,12 @@
 window.addEventListener("load", function(){
 
-    var x = document.getElementById("full_name");
+    var name = document.getElementById("full_name");
   
-    x.addEventListener("keyup", function() {
+    name.addEventListener("keyup", function() {
   
-      var y = document.getElementById("greeting");
+      var greet = document.getElementById("greeting");
   
-      y.innerHTML = ("Hello there, " + x.value + "!");
+      greet.innerHTML = ("Hello there, " + name.value + "!");
   
     });
   
