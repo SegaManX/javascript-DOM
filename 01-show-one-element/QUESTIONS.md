@@ -6,7 +6,7 @@
 
 > If you click the link to reveal more text and then refresh the page, does the text remain revealed, or is it hidden again? Why?
 
-No, because the "clicked" condition is no longer met.
+No, because the "clicked" condition is no longer met and it returns to its starting state.
 
 ---
 

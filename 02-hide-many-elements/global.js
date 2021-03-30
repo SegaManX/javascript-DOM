@@ -7,5 +7,4 @@ window.addEventListener("load", function(){
         els[i].style.display = "none";
         }
     });
-
 });

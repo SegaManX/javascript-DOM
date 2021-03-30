@@ -6,4 +6,4 @@
 
 > What are some refactoring techniques you might apply to the provided solution?
 
-i don't know.
+I don't know.
