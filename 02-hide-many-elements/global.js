@@ -1,10 +1,10 @@
 window.addEventListener("load", function(){
 
     document.getElementById("button").addEventListener("click", function(){
-        var els = document.getElementsByClassName("hide_me");
-        for (var  i = 0; i < els.length; i++)
+        var hide_elements = document.getElementsByClassName("hide_me");
+        for (var  i = 0; i < hide_elements.length; i++)
         {
-        els[i].style.display = "none";
+            hide_elements[i].style.display = "none";
         }
     });
 });

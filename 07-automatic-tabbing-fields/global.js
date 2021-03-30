@@ -1,25 +1,28 @@
-window.addEventListener("load", function(){
-
-    var x = document.getElementById('first');
-    var y = document.getElementById('second');
-    var z = document.getElementById('third');
+window.addEventListener("load", function()
+{
+    var first = document.getElementById('first');
+    var second = document.getElementById('second');
+    var third = document.getElementById('third');
   
-    x.addEventListener("keyup", function() {
-      typed_characters = x.value.length;
-      max_characters = parseInt(x.getAttribute("maxlength"));
+    first.addEventListener("keyup", function() 
+    {
+      typed_characters = first.value.length;
+      max_characters = parseInt(first.getAttribute("maxlength"));
   
-      if (typed_characters === max_characters) {
-        y.focus();
+      if (typed_characters === max_characters) 
+      {
+        second.focus();
       }
     });
   
-    y.addEventListener("keyup", function() {
-      typed_characters = y.value.length;
-      max_characters = parseInt(y.getAttribute("maxlength"));
+    second.addEventListener("keyup", function() 
+    {
+      typed_characters = second.value.length;
+      max_characters = parseInt(second.getAttribute("maxlength"));
   
-      if (typed_characters === max_characters) {
-        z.focus();
+      if (typed_characters === max_characters)
+      {
+        third.focus();
       }
     });
-  
-  });
+});

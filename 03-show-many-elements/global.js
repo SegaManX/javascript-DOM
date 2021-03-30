@@ -1,10 +1,10 @@
 window.addEventListener("load", function(){
 
     document.getElementById("button").addEventListener("click", function(){
-        var els = document.getElementsByClassName("show_me");
-        for (var  i = 0; i < els.length; i++)
+        var show_elements = document.getElementsByClassName("show_me");
+        for (var  i = 0; i < show_elements.length; i++)
         {
-        els[i].style.display = "block";
+            show_elements[i].style.display = "block";
         }
     });
 
